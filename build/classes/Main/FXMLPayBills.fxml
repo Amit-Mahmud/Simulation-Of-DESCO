@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.FXMLPayBillsController">
+   <children>
+      <Label layoutX="239.0" layoutY="40.0" prefHeight="19.0" prefWidth="84.0" text="Bill Payment" textFill="#dd0764">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customerIdField" layoutX="201.0" layoutY="99.0" prefHeight="25.0" prefWidth="160.0" promptText="Enter Customer ID" />
+      <Label layoutX="198.0" layoutY="146.0" text="Total Amount:" textFill="#460ed3">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="paymentCombo" layoutX="200.0" layoutY="188.0" prefHeight="25.0" prefWidth="160.0" promptText="Payment Options" />
+      <TextField fx:id="cardOrBkashNumberField" layoutX="200.0" layoutY="234.0" prefHeight="25.0" prefWidth="160.0" promptText="Enter Card/ Bkash Number" />
+      <Button layoutX="250.0" layoutY="310.0" mnemonicParsing="false" onAction="#onClickPayNowButton" text="Pay Now" />
+      <Button layoutX="222.0" layoutY="347.0" mnemonicParsing="false" onAction="#onClickBackToHomepageButton3" text="Back To Homepage" />
+      <Label fx:id="label" layoutX="349.0" layoutY="283.0" textFill="#1f0775">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label" layoutX="286.0" layoutY="145.0" prefHeight="19.0" prefWidth="43.0" textFill="#da0b0b">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
