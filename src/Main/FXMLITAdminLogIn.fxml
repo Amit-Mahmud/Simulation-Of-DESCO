@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.FXMLITAdminLogInController">
+   <children>
+      <Label layoutX="60.0" layoutY="35.0" text="IT Admin Homepage" textFill="#903609">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="173.0" layoutY="94.0" mnemonicParsing="false" onAction="#onClickCommunicateWithStaffButton" prefHeight="25.0" prefWidth="152.0" text="Communicate With Staff" />
+      <Button layoutX="173.0" layoutY="139.0" mnemonicParsing="false" onAction="#onClickCheckAndStoreButton" prefHeight="25.0" prefWidth="152.0" text="Check Software Issues" />
+      <Button layoutX="173.0" layoutY="188.0" mnemonicParsing="false" onAction="#onClickCustomerProblemButton" prefHeight="25.0" prefWidth="152.0" text="Customer Problems" />
+      <Button layoutX="173.0" layoutY="234.0" mnemonicParsing="false" onAction="#onClickServerMaintenanceButton" prefHeight="25.0" prefWidth="152.0" text="Server Maintenance" />
+      <Button layoutX="173.0" layoutY="279.0" mnemonicParsing="false" onAction="#onClickCheckNetworkStatisticsButton" text="Record Network Statistics" />
+      <Button layoutX="220.0" layoutY="333.0" mnemonicParsing="false" onAction="#onClickLogOutButton5" text="Log Out" />
+   </children>
+</AnchorPane>
